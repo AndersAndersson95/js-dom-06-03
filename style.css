@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   .note {
+       height: 42px;
+       display: flex;
+       align-items: center;
+       padding-left: 1rem;
+       padding-right: 1rem;
+   }
+
+   .note.note {
+        margin-top: 1rem;
+   }
+
+   .note:hover {
+       background-color: black !important;
+       color: white;
+   }
